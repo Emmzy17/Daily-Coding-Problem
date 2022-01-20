@@ -9,5 +9,5 @@ def two_sum(arr, target):
             if arr[n] + arr[j] == target:
                 return (arr[n], arr[j])
          
-arr = [10,15,3,7]
+arr = [10,15,3]
 print(two_sum(arr, 17))
